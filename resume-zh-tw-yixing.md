@@ -19,7 +19,7 @@ BSc, Electrical Engineering, 中原大學電機工程學系
 
 Skills & Tool
 ---------
-C,  C# .NET, QT, Matlab/Sumlink
+C,  C# .NET, QT, Matlab/Simulink
 Git, Subversion, Visual Studio Code, Code::Blocks, Keil uVision
 
 Knowledge
