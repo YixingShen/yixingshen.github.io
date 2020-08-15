@@ -43,7 +43,7 @@ Integrate and port source code for daughter board and module firmware
     USB-to-SPI/I2C, UART-to-SPI/I2C    
     Register/DRAM/Flash Write/Read Operations    
     Generate AVS761x/AVS715x Initial Register Script for Different Scenarios Use    
-    RAW/RGB/YUV Converter, OSD Font Editor, Run-Length Encoder/Decoder, Motion Detection ROI,     
+    RAW/RGB/YUV Converter, OSD Font Editor, Run-Length Encoder/Decoder
 - Daughter Board    
     LVDS SerDes, HDMI Transmitter/Receiver, USB to I2C/SPI    
 - Module    
