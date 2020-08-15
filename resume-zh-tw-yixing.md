@@ -27,7 +27,7 @@ Knowledge
 ---------
 Embedded System, RTOS,    
 Low Speed Serial Interfaces (I2C,SPI,UART,I2S),    
-HDTV/SDTV Digital Video Protocol, USB Video/Audio/HID Class,    
+USB Video/Audio/HID Class,    
 HDMI, MIPI, SDI, TI LVDS, CMOS Image Sensor Interface,    
 Composite Video Broadcast Signal,    
 Camera Motor Driver,    
