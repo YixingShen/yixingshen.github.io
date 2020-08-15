@@ -12,7 +12,7 @@ Skype: kkman3651878
 Education
 ---------
 2008 - 2010    
-MSc, Power System, 中原大學電機研究所    
+MSc, Power System, 中原大學電機工程研究所    
 
 2004 - 2008    
 BSc, Electrical Engineering, 中原大學電機工程學系    
