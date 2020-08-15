@@ -25,12 +25,12 @@ Keil uVision (MDK, PK51), Electronics Renesas CS+
 
 Knowledge
 ---------
-Embedded System, RTOS,    
+Embedded System,    
 Low Speed Serial Interfaces (I2C,SPI,UART,I2S),    
 USB Video/Audio/HID Class,    
 HDMI, MIPI, SDI, TI LVDS, CMOS Image Sensor Interface,    
 Composite Video Broadcast Signal,    
-Camera Motor Driver,    
+Camera Motor Driver, RTOS    
 
 Experience 
 ---------
