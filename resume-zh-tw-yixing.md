@@ -28,8 +28,7 @@ Knowledge
 Embedded System,    
 Low Speed Serial Interfaces (I2C,SPI,UART,I2S),    
 USB Video/Audio/HID Class,    
-HDMI, MIPI, SDI, TI LVDS, CMOS Image Sensor Interface,    
-Composite Video Broadcast Signal,    
+CVBS, HDMI, MIPI, SDI, TI LVDS, CMOS Image Sensor Interface,    
 Basic Image Processing, Camera Motor Driver, RTOS    
 
 Experience 
