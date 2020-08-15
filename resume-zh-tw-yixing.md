@@ -40,7 +40,7 @@ Develop embedded 8051 peripheral drivers, bootloader and application firmware
 Integrate and port source code for daughter board and module firmware    
 
 - AVS761x/AVS715x EVB Tool    
-    USB-to-SPI/I2C and UART-to-SPI/I2C    
+    USB-to-SPI/I2C, UART-to-SPI/I2C    
     Register/DRAM/Flash Write/Read Operations    
     Generate AVS761x/AVS715x Initial Register Script for Different Scenarios Use    
     RAW/RGB/YUV Converter, OSD Font Editor, Run-Length Encoder/Decoder, Motion Detection ROI,     
