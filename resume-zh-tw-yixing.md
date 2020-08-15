@@ -20,13 +20,14 @@ BSc, Electrical Engineering, 中原大學電機工程學系
 Skills & Tool
 ---------
 C,  C# .NET, QT, Matlab/Simulink    
-Git, Subversion, Visual Studio Code, Code::Blocks, Keil uVision    
+Git, Subversion, Visual Studio Code, Code::Blocks,
+Keil uVision (MDK, PK51), Electronics Renesas CS+   
 
 Knowledge
 ---------
 Embedded System, RTOS,    
 Low Speed Serial Interfaces (I2C,SPI,UART,I2S),    
-HDTV/SDTV Digital Video Protocol, USB Video/Audio Class,    
+HDTV/SDTV Digital Video Protocol, USB Video/Audio/HID Class,    
 HDMI, MIPI, SDI, TI LVDS, CMOS Image Sensor Interface,    
 Composite Video Broadcast Signal,    
 Camera Motor Driver,    
