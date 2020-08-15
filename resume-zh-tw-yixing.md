@@ -15,13 +15,13 @@ Education
 MSc, Power System, 中原大學電機工程研究所    
 
 2004 - 2008    
-BSc, Electrical Engineering, 中原大學電機工程學系    
+BSc, Electrical Engineering, 中原大學電機工程學系     
 
 Skills & Tool
 ---------
-C,  C# .NET, QT, Matlab/Simulink    
-Git, Subversion, Visual Studio Code, Code::Blocks,
-Keil uVision (MDK, PK51), Electronics Renesas CS+   
+C,  C# .NET, QT, Matlab/Simulink     
+Git, Subversion, Visual Studio Code, Code::Blocks,    
+Keil uVision (MDK, PK51), Electronics Renesas CS+     
 
 Knowledge
 ---------
