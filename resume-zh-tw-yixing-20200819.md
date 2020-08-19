@@ -81,3 +81,8 @@ Lens Device Driver (Zoom/Focus/Iris/Shutter)
   [1] C.-Y. Lee and **Y.-X. Shen**, “Optimal Feature Selection for Power-Quality Disturbances Classification,” IEEE Transactions on Power Delivery, Vol. 26, No. 4, pp. 2342-2351, Oct. 2011. (SCI; ISSN:0885-8977)    
   [2] C.-Y. Lee, P.-H. Chen and **Y.-X. Shen**, “Maximum Power Point Tracking (MPPT) System of Small Wind Power Generator Using RBFNN Approach,” Expert Systems with Applications, Vol. 38, No. 10, pp. 12058-12065, Sept. 2011. (SCI; ISSN:0957-4174)    
   [3] C.-Y. Lee and **Y.-X. Shen**,“Feature Analysis of Power Quality Disturbance in Smart Grid Using S- transform and TT-transform,”International Review of Electrical Engineering, Vol. 7 , No. 2 , 2012. (SCI; ISSN:1827-6660)    
+  [4] C.-Y. Lee, Y.-H. Hsieh, H.-C. Lin and **Y.-X. Shen**,“Faults Diagnosis System of DC Motors Based on Empirical Mode Decomposition Model,”Advanced Science Letters, Vol. 13, No. 1, pp. 279-284, 2012. (SCI; ISSN: 1936-6612)    
+- 研討會論文    
+  [1] 李俊耀、鄭榮成、**沈玴興**、張智文、李易殷,“結合類神經與粒子群演算法於小型風機之最大功率追蹤,” 台灣風能協會第二屆第二次會員大會暨2009台灣風能學術研討會, 2009年12月, 台灣科技大學, pp. 46-51.    
+  [2] 李俊耀、**沈玴興**,“應用基因演算法和粒子群最佳化之地網規劃研究,”中華民國第29屆電力工程研討會, 2008年12月, 南台科技大學, pp. 2300-2304.    
+  [3] C.-H. Hsu, C.-Y. Lee, G.-L. Liao, Y.-T. Jou, J.-M. Ho, Y.-H. Hsieh and **Y.-X. Shen**, “Generator Damage Recognition Based on Artificial Neural Network”, Proceedings of World Academy of Science, Engineering and Technology, Vol. 65, pp. 577-580. May 2012. (EI; ISSN:2010-376X)    
