@@ -48,7 +48,7 @@ Integrate and port source code for daughter board and module firmware
     LVDS SerDes, HDMI Transmitter/Receiver, USB to I2C/SPI    
 - Module    
     HDMI/SDI/CVBS Receiver with USB Video/DVB-T Output    
-    HDMI 1x4 Video Wall    
+    HDMI 1x4 Video Wall, Camera Module    
 - General-Purpose MCU    
   Renesas: R5F1007E, R5F100GG    
   ST: STM32F103, STM32F030    
