@@ -47,8 +47,9 @@ Bring up daughter boards and modules
 - Daughter Board    
     LVDS SerDes, HDMI Transmitter/Receiver, USB to I2C/SPI    
 - Module    
+    Camera Module    
     HDMI/SDI/CVBS Receiver with USB Video/DVB-T Output    
-    HDMI 1x4 Video Wall, Camera Module    
+    HDMI 1x4 Video Wall    
 - General-Purpose MCU    
   Renesas: R5F1007E, R5F100GG    
   ST: STM32F103, STM32F030    
