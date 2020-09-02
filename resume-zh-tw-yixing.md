@@ -51,8 +51,8 @@ Bring up daughter boards and modules
     HDMI/SDI/CVBS Receiver with USB Video/DVB-T Output    
     HDMI 1x4 Video Wall    
 - General-Purpose MCU    
-  Renesas: R5F1007E, R5F100GG    
-  ST: STM32F103, STM32F030    
+  Renesas Electronics: R5F1007E, R5F100GG    
+  STMicroelectronics: STM32F103, STM32F030    
 - Altera FPGA EVB Platform Data Transport    
   Implement USB transport using LibUSB-win32 and QT5    
 - HDMI 1x4 Video Wall Layout Tool    
