@@ -48,7 +48,7 @@ Bring up daughter boards and modules
     LVDS SerDes, HDMI Transmitter/Receiver, USB to I2C/SPI    
 - Module    
     Camera Module    
-    HDMI/SDI/CVBS Receiver with USB Video/DVB-T Output    
+    HDMI/SDI/CVBS Receiver with USB Video Output    
     HDMI 1x4 Video Wall    
 - General-Purpose MCU    
   Renesas Electronics: R5F1007E, R5F100GG    
