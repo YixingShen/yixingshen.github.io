@@ -8,7 +8,6 @@ Email: kkman3651878@hotmail.com
 Linkedin: www.linkedin.com/in/kkman3651878    
 LINE ID: yixingshen    
 Skype: kkman3651878    
-[Download Resume](https://YixingShen.github.io/resume-zh-tw-yixing.pdf)    
 
 Education
 ---------
