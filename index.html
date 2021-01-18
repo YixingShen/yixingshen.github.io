@@ -2,14 +2,15 @@
 <html>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<title>resume-zh-tw-yixing</title><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
+<title>resume-zh-tw-yixing</title><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; --title-bar-height:20px; }
+.mac-os-11 { --title-bar-height:28px; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
 body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
 iframe { margin: auto; }
 a.url { word-break: break-all; }
 a:active, a:hover { outline: 0px; }
 .in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
-#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
 #write.first-line-indent p { text-indent: 2em; }
 #write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
 #write.first-line-indent li { margin-left: 2em; }
@@ -77,6 +78,7 @@ div.hr:focus { cursor: none; }
 li div { padding-top: 0px; }
 blockquote { margin: 1rem 0px; }
 li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
 li { margin: 0px; position: relative; }
 blockquote > :last-child { margin-bottom: 0px; }
 blockquote > :first-child, li > :first-child { margin-top: 0px; }
@@ -86,7 +88,6 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
   body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
   #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
   .typora-export * { -webkit-print-color-adjust: exact; }
-  html.blink-to-pdf { font-size: 13px; }
   .typora-export #write { break-after: avoid; }
   .typora-export #write::after { height: 0px; }
   .is-mac table { break-inside: avoid; }
@@ -100,6 +101,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 #write .MathJax_Display { margin: 0.8em 0px 0px; }
 .md-math-block { width: 100%; }
 .md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
 [contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
 .md-task-list-item { position: relative; list-style-type: none; }
 .task-list-item.md-task-list-item { padding-left: 0px; }
@@ -150,13 +152,16 @@ table tr th { border-bottom: 0px; }
 video { max-width: 100%; display: block; margin: 0px auto; }
 iframe { max-width: 100%; width: 100%; border: none; }
 .highlight td, .highlight tr { border: 0px; }
-svg[id^="mermaidChart"] { line-height: 1em; }
 mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
 .md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
 mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
 @media print {
   .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
 }
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-require-zoom-fix foreignobject { font-size: var(--mermaid-font-zoom); }
 
 
 :root {
@@ -352,24 +357,24 @@ table tr:nth-child(2n),
 thead {
     background-color: #f8f8f8;
 }
-table tr th {
+table th {
     font-weight: bold;
     border: 1px solid #dfe2e5;
     border-bottom: 0;
     margin: 0;
     padding: 6px 13px;
 }
-table tr td {
+table td {
     border: 1px solid #dfe2e5;
     margin: 0;
     padding: 6px 13px;
 }
-table tr th:first-child,
-table tr td:first-child {
+table th:first-child,
+table td:first-child {
     margin-top: 0;
 }
-table tr th:last-child,
-table tr td:last-child {
+table th:last-child,
+table td:last-child {
     margin-bottom: 0;
 }
 
@@ -543,6 +548,6 @@ header, .context-menu, .megamenu-content, footer{
 </style>
 </head>
 <body class='typora-export os-windows'>
-<div id='write'  class=''><h1><a name="沈玴興-yixing-shen" class="md-header-anchor"></a><span>沈玴興 (Yixing Shen)</span></h1><h2><a name="contact" class="md-header-anchor"></a><span>Contact</span></h2><p><a href='https://yixingshen.github.io' target='_blank' class='url'>https://yixingshen.github.io</a><span>  </span><br/><span>Email: </span><a href='mailto:kkman3651878@hotmail.com' target='_blank' class='url'>kkman3651878@hotmail.com</a><span>  </span><br/><span>Linkedin: </span><a href='http://www.linkedin.com/in/kkman3651878' target='_blank' class='url'>www.linkedin.com/in/kkman3651878</a><span>  </span><br/><span>LINE ID: yixingshen  </span><br/><span>Skype: kkman3651878  </span><br/><a href='https://YixingShen.github.io/resume-zh-tw-yixing.pdf'><span>Download Resume</span></a><span>    </span></p><h2><a name="education" class="md-header-anchor"></a><span>Education</span></h2><p><span>2008 - 2010  </span><br/><span>MSc, Power System, 中原大學電機工程研究所    </span></p><p><span>2004 - 2008  </span><br/><span>BSc, Electrical Engineering, 中原大學電機工程學系     </span></p><h2><a name="skills--tool" class="md-header-anchor"></a><span>Skills &amp; Tool</span></h2><p><span>C,  C# .NET, QT, Matlab, Octave   </span><br/><span>Git, Subversion, Visual Studio Code, Code::Blocks,  </span><br/><span>Keil uVision (MDK, PK51), Electronics Renesas CS+     </span></p><h2><a name="knowledge" class="md-header-anchor"></a><span>Knowledge</span></h2><p><span>Embedded System,  </span><br/><span>Low Speed Serial Interfaces (I2C,SPI,UART,I2S),  </span><br/><span>USB Video/Audio/HID Class,  </span><br/><span>CVBS, HDMI, MIPI CSI-2, SDI, TI FPD-Link LVDS, CMOS Image Sensor Interface,  </span><br/><span>Basic Image Processing, Camera Motor Driver, RTOS    </span></p><h2><a name="experience" class="md-header-anchor"></a><span>Experience </span></h2><p><span>2013/06 - Present 義晶科技,系統整合及設計處,資深工程師</span></p><p><span>Develop and maintain EVB firmware and GUI form using C# .NET and WIN32 API DLL  </span><br/><span>Develop embedded 8051 peripheral drivers, bootloader and application firmware  </span><br/><span>Bring up daughter boards and modules    </span></p><ul><li><span>AVS761x/AVS715x EVB Tool  </span><br/><span>USB-to-SPI/I2C, UART-to-SPI/I2C  </span><br/><span>Register/DRAM/Flash Write/Read Operations  </span><br/><span>Generate AVS761x/AVS715x Initial Register Script for Different Scenarios Use  </span><br/><span>ISP Tuning, RAW/RGB/YUV Converter, OSD Font, RLE/RLD Converter    </span></li><li><span>Daughter Board  </span><br/><span>LVDS SerDes, HDMI Transmitter/Receiver, USB to I2C/SPI    </span></li><li><span>Module  </span><br/><span>Camera Module  </span><br/><span>HDMI/SDI/CVBS Receiver with USB Video Output  </span><br/><span>HDMI 1x4 Video Wall    </span></li><li><span>General-Purpose MCU  </span><br/><span>Renesas Electronics: R5F1007E, R5F100GG  </span><br/><span>STMicroelectronics: STM32F103, STM32F030    </span></li><li><span>Altera FPGA EVB Platform Data Transport  </span><br/><span>Implement USB transport using LibUSB-win32 and QT5    </span></li><li><span>HDMI 1x4 Video Wall Layout Tool    </span></li><li><span>EDID Parser Console     </span></li><li><span>Flash Programming Console    </span></li></ul><p><span>2011/12 - 2013/06 華晶科技,軟體驅動部,高級工程師    </span></p><p><span>Developed and maintained lens controller firmware and calibration for MQX RTOS  </span><br/><span>Lens Device Driver (Zoom/Focus/Iris/Shutter)    </span></p><ul><li><span>Nikon Digital Camera COOLPIX S02    </span></li><li><span>Nikon Digital Camera COOLPIX L28    </span></li></ul><p><span>2008/09 - 2010/07 中原大學電機研究所    </span></p><ul><li><span>應用人工智慧和訊號處理於電力系統  </span><br/><span>以機率神經網路,時頻分析及最佳化演算法建立一套特徵選取機制於電力品質干擾自動辨識</span>[<span>1</span>][3]<span>  </span><br/><span>運用Matlab/Simulink做為演算法開發及永磁式同步風力機最大功率追蹤控制[2]    </span></li><li><span>期刊論文  </span><br/><span>[1] C.-Y. Lee and </span><strong><span>Y.-X. Shen</span></strong><span>, “Optimal Feature Selection for Power-Quality Disturbances Classification,” IEEE Transactions on Power Delivery, Vol. 26, No. 4, pp. 2342-2351, Oct. 2011. (SCI; ISSN:0885-8977)  </span><br/><span>[2] C.-Y. Lee, P.-H. Chen and </span><strong><span>Y.-X. Shen</span></strong><span>, “Maximum Power Point Tracking (MPPT) System of Small Wind Power Generator Using RBFNN Approach,” Expert Systems with Applications, Vol. 38, No. 10, pp. 12058-12065, Sept. 2011. (SCI; ISSN:0957-4174)  </span><br/><span>[3] C.-Y. Lee and </span><strong><span>Y.-X. Shen</span></strong><span>,“Feature Analysis of Power Quality Disturbance in Smart Grid Using S- transform and TT-transform,”International Review of Electrical Engineering, Vol. 7 , No. 2 , 2012. (SCI; ISSN:1827-6660)    </span></li></ul></div>
+<div id='write'  class=''><h1><a name="沈玴興-yixing-shen" class="md-header-anchor"></a><span>沈玴興 (Yixing Shen)</span></h1><h2><a name="contact" class="md-header-anchor"></a><span>Contact</span></h2><p><a href='https://yixingshen.github.io' target='_blank' class='url'>https://yixingshen.github.io</a><span>  </span><br/><span>Email: </span><a href='mailto:kkman3651878@hotmail.com' target='_blank' class='url'>kkman3651878@hotmail.com</a><span>  </span><br/><span>Linkedin: </span><a href='http://www.linkedin.com/in/kkman3651878' target='_blank' class='url'>www.linkedin.com/in/kkman3651878</a><span>  </span><br/><span>LINE ID: yixingshen  </span><br/><span>Skype: kkman3651878    </span></p><h2><a name="education" class="md-header-anchor"></a><span>Education</span></h2><p><span>2008 - 2010  </span><br/><span>MSc, Power System, 中原大學電機工程研究所    </span></p><p><span>2004 - 2008  </span><br/><span>BSc, Electrical Engineering, 中原大學電機工程學系     </span></p><h2><a name="skills--tool" class="md-header-anchor"></a><span>Skills &amp; Tool</span></h2><p><span>C,  C# .NET, QT, Matlab, Octave   </span><br/><span>Git, Subversion, Visual Studio Code, Code::Blocks,  </span><br/><span>Keil uVision (MDK, PK51), Electronics Renesas CS+     </span></p><h2><a name="knowledge" class="md-header-anchor"></a><span>Knowledge</span></h2><p><span>Embedded System,  </span><br/><span>Low Speed Serial Interfaces (I2C,SPI,UART,I2S),  </span><br/><span>USB Video/Audio/HID Class,  </span><br/><span>CVBS, HDMI, MIPI CSI-2, SDI, TI FPD-Link LVDS, CMOS Image Sensor Interface,  </span><br/><span>Basic Image Processing, Camera Motor Driver, RTOS    </span></p><h2><a name="experience" class="md-header-anchor"></a><span>Experience </span></h2><p><span>2013/06 - Present 義晶科技,系統整合及設計處,資深工程師</span></p><p><span>Develop and maintain EVB firmware and GUI form using C# .NET and WIN32 API DLL  </span><br/><span>Develop embedded 8051 peripheral drivers, bootloader and application firmware  </span><br/><span>Bring up daughter boards and modules    </span></p><ul><li><span>AVS761x/AVS715x EVB Tool  </span><br/><span>USB-to-SPI/I2C, UART-to-SPI/I2C  </span><br/><span>Register/DRAM/Flash Write/Read Operations  </span><br/><span>Generate AVS761x/AVS715x Initial Register Script for Different Scenarios Use  </span><br/><span>ISP Tuning, RAW/RGB/YUV Converter, OSD Font, RLE/RLD Converter    </span></li><li><span>Daughter Board  </span><br/><span>LVDS SerDes, HDMI Transmitter/Receiver, USB to I2C/SPI    </span></li><li><span>Module  </span><br/><span>Camera Module  </span><br/><span>HDMI/SDI/CVBS Receiver with USB Video Output  </span><br/><span>HDMI 1x4 Video Wall    </span></li><li><span>General-Purpose MCU  </span><br/><span>Renesas Electronics: R5F1007E, R5F100GG  </span><br/><span>STMicroelectronics: STM32F103, STM32F030    </span></li><li><span>Altera FPGA EVB Platform Data Transport  </span><br/><span>Implement USB transport using LibUSB-win32 and QT5    </span></li><li><span>HDMI 1x4 Video Wall Layout Tool    </span></li><li><span>EDID Parser Console     </span></li><li><span>Flash Programming Console    </span></li></ul><p><span>2011/12 - 2013/06 華晶科技,軟體驅動部,高級工程師    </span></p><p><span>Developed and maintained lens controller firmware and calibration for MQX RTOS  </span><br/><span>Lens Device Driver (Zoom/Focus/Iris/Shutter)    </span></p><ul><li><span>Nikon Digital Camera COOLPIX S02    </span></li><li><span>Nikon Digital Camera COOLPIX L28    </span></li></ul><p><span>2008/09 - 2010/07 中原大學電機研究所    </span></p><ul><li><span>應用人工智慧和訊號處理於電力系統  </span><br/><span>以機率神經網路,時頻分析及最佳化演算法建立一套特徵選取機制於電力品質干擾自動辨識</span>[<span>1</span>][3]<span>  </span><br/><span>運用Matlab/Simulink做為演算法開發及永磁式同步風力機最大功率追蹤控制[2]    </span></li><li><span>期刊論文  </span><br/><span>[1] C.-Y. Lee and </span><strong><span>Y.-X. Shen</span></strong><span>, “Optimal Feature Selection for Power-Quality Disturbances Classification,” IEEE Transactions on Power Delivery, Vol. 26, No. 4, pp. 2342-2351, Oct. 2011. (SCI; ISSN:0885-8977)  </span><br/><span>[2] C.-Y. Lee, P.-H. Chen and </span><strong><span>Y.-X. Shen</span></strong><span>, “Maximum Power Point Tracking (MPPT) System of Small Wind Power Generator Using RBFNN Approach,” Expert Systems with Applications, Vol. 38, No. 10, pp. 12058-12065, Sept. 2011. (SCI; ISSN:0957-4174)  </span><br/><span>[3] C.-Y. Lee and </span><strong><span>Y.-X. Shen</span></strong><span>,“Feature Analysis of Power Quality Disturbance in Smart Grid Using S- transform and TT-transform,”International Review of Electrical Engineering, Vol. 7 , No. 2 , 2012. (SCI; ISSN:1827-6660)    </span></li></ul></div>
 </body>
 </html>
