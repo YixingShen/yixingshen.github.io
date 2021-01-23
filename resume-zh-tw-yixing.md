@@ -9,6 +9,13 @@ Linkedin: www.linkedin.com/in/kkman3651878
 LINE ID: yixingshen    
 Skype: kkman3651878    
 
+About
+---------
+Hardware and System Bring Up
+Firmware Development
+FPGA Verification
+Software Development
+
 Education
 ---------
 2008 - 2010    
@@ -25,6 +32,7 @@ Keil uVision (MDK, PK51), Electronics Renesas CS+
 
 Knowledge
 ---------
+
 Embedded System,    
 Low Speed Serial Interfaces (I2C,SPI,UART,I2S),    
 USB Video/Audio/HID Class,    
