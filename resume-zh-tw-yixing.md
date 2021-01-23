@@ -28,8 +28,9 @@ Knowledge
 Embedded System,    
 Low Speed Serial Interfaces (I2C,SPI,UART,I2S),    
 USB Video/Audio/HID Class,    
-CMOS Sensor DVP, HD/SD TV Parallel Interface, CVBS, HDMI, MIPI CSI-2, SDI, TI FPD-Link LVDS,  
-Basic Image Processing, Camera Motor Driver, RTOS    
+CMOS Sensor DVP, HD/SD TV Parallel Interface, CVBS, HDMI, MIPI CSI-2, SDI, TI FPD-Link LVDS,     
+Basic Image Processing,    
+Camera Motor Driver
 
 Experience 
 ---------
