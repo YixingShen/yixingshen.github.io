@@ -29,7 +29,7 @@ Skills & Tool
 C,  C# .NET, QT, Matlab, Octave, RTL Verilog     
 Git, Subversion, Visual Studio Code, Code::Blocks,    
 Keil uVision (MDK, PK51), Electronics Renesas CS+     
-Intel (Altera)  Quartus    
+Intel (Altera) Quartus    
 
 Knowledge
 ---------
