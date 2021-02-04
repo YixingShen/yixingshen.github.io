@@ -11,10 +11,10 @@ Skype: kkman3651878
 
 About
 ---------
-Hardware and System Bring Up
-Firmware Development
-FPGA Verification
-Software Development
+Hardware and System Bring Up   
+Firmware Development   
+Software Development   
+FPGA Verification   
 
 Education
 ---------
@@ -26,9 +26,10 @@ BSc, Electrical Engineering, 中原大學電機工程學系
 
 Skills & Tool
 ---------
-C,  C# .NET, QT, Matlab, Octave     
+C,  C# .NET, QT, Matlab, Octave, RTL Verilog     
 Git, Subversion, Visual Studio Code, Code::Blocks,    
 Keil uVision (MDK, PK51), Electronics Renesas CS+     
+Intel (Altera) FPGA
 
 Knowledge
 ---------
@@ -36,7 +37,7 @@ Knowledge
 Embedded System,    
 Low Speed Serial Interfaces (I2C,SPI,UART,I2S),    
 USB Video/Audio/HID Class,    
-CMOS Sensor DVP, HD/SD TV Parallel Interface, CVBS, HDMI, MIPI CSI-2, SDI, TI FPD-Link LVDS,     
+CMOS Sensor DVP, HD/SD TV Parallel Interface, CVBS, HDMI, MIPI CSI-2, SDI, TI FPD-Link LVDS,   
 Basic Image Processing,    
 Camera Motor Driver
 
