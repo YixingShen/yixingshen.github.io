@@ -66,8 +66,7 @@ Bring up daughter boards and modules
 - Altera FPGA EVB Platform Data Transport    
   Implement USB transport using LibUSB-win32 and QT5    
 - HDMI 1x4 Video Wall Layout Tool    
-- EDID Parser Console     
-- Flash Programming Console    
+- HDMI EDID Parser Console     
 
 2011/12 - 2013/06 華晶科技,軟體驅動部,高級工程師    
 
