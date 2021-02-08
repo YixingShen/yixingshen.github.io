@@ -26,10 +26,8 @@ BSc, Electrical Engineering, 中原大學電機工程學系
 
 Skills & Tool
 ---------
-C,  C# .NET, QT, Matlab, Octave, RTL Verilog     
-Git, Subversion, Visual Studio Code, Code::Blocks,    
-Keil uVision (MDK, PK51), Electronics Renesas CS+     
-Intel (Altera) Quartus    
+C,  C# .NET, QT, RTL Verilog     
+Git, Visual Studio Code, Keil uVision (MDK, PK51), Electronics Renesas CS+, Intel (Altera) Quartus    
 
 Knowledge
 ---------
