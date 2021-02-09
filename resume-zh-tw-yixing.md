@@ -27,7 +27,7 @@ BSc, Electrical Engineering, 中原大學電機工程學系
 Skills & Tool
 ---------
 C,  C# .NET, QT, RTL Verilog     
-Git, Visual Studio Code, Keil uVision (MDK, PK51), Electronics Renesas CS+, Intel (Altera) Quartus    
+Git, VS Code, Keil (MDK, PK51), Electronics Renesas CS+, Intel (Altera) Quartus    
 
 Knowledge
 ---------
@@ -35,7 +35,7 @@ Knowledge
 Embedded System,    
 Low Speed Serial Interfaces (I2C,SPI,UART,I2S),    
 USB Video/Audio/HID Class,    
-CMOS Sensor DVP, HD/SD TV Parallel Interface, CVBS, HDMI, MIPI CSI-2, SDI, TI FPD-Link LVDS,   
+CMOS Sensor DVP, HD/SDTV Parallel Interface, CVBS, HDMI, MIPI CSI-2, SDI, TI FPD-Link LVDS,   
 Basic Image Processing,    
 Camera Motor Driver
 
