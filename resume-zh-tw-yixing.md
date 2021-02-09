@@ -68,7 +68,7 @@ Bring up daughter boards and modules
 
 2011/12 - 2013/06 華晶科技,軟體驅動部,高級工程師    
 
-Developed and maintained lens controller firmware and calibration for MQX RTOS    
+Developed and maintained lens controller firmware and calibration for MQX RTOS Platform.    
 Lens Device Driver (Zoom/Focus/Iris/Shutter)    
 - Nikon Digital Camera COOLPIX S02    
 - Nikon Digital Camera COOLPIX L28    
