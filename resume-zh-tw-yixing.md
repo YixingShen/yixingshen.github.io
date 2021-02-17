@@ -50,7 +50,7 @@ Bring up daughter boards and modules
 - AVS761x/AVS715x EVB Tool    
     USB-to-SPI/I2C, UART-to-SPI/I2C    
     Register/DRAM/Flash Write/Read Operations    
-    Generate AVS761x/AVS715x Initial Register Script for Different Scenarios Use    
+    Generate Initial Register Script for Different Scenarios Use    
     ISP Tuning, RAW/RGB/YUV Converter, OSD Font, RLE/RLD Converter    
 - Daughter Board    
     LVDS SerDes, HDMI Transmitter/Receiver, USB to I2C/SPI    
