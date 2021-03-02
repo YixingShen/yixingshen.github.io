@@ -44,7 +44,7 @@ Experience
 2013/06 - Present 義晶科技,系統整合及設計處,資深工程師
 
 Develop EVB firmware and GUI form using C# .NET and WIN32 API DLL    
-Develop embedded 8051 peripheral drivers, bootloader and application firmware    
+Develop embedded 8051 peripheral drivers, bootloader/BootROM and application firmware    
 Bring up daughter boards and modules    
 FPGA / Real chip function verification   
 
