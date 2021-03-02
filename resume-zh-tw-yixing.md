@@ -43,9 +43,10 @@ Experience
 ---------
 2013/06 - Present 義晶科技,系統整合及設計處,資深工程師
 
-Develop and maintain EVB firmware and GUI form using C# .NET and WIN32 API DLL    
+Develop EVB firmware and GUI form using C# .NET and WIN32 API DLL    
 Develop embedded 8051 peripheral drivers, bootloader and application firmware    
 Bring up daughter boards and modules    
+FPGA verification   
 
 - AVS761x/AVS715x EVB Tool    
     USB-to-SPI/I2C, UART-to-SPI/I2C    
