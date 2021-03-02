@@ -14,7 +14,7 @@ About
 Hardware and System Bring Up   
 Firmware Development   
 Software Development   
-FPGA Verification   
+FPGA / Real chip Function Verification   
 
 Education
 ---------
@@ -46,7 +46,7 @@ Experience
 Develop EVB firmware and GUI form using C# .NET and WIN32 API DLL    
 Develop embedded 8051 peripheral drivers, bootloader and application firmware    
 Bring up daughter boards and modules    
-FPGA verification   
+FPGA / Real chip function verification   
 
 - AVS761x/AVS715x EVB Tool    
     USB-to-SPI/I2C, UART-to-SPI/I2C    
