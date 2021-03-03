@@ -28,7 +28,7 @@ Skills & Tool
 ---------
 C,  C# .NET, QT, RTL Verilog     
 Git, VS Code, Keil (MDK, PK51), Electronics Renesas CS+, Intel (Altera) Quartus    
-Logic analyzer, Oscilloscope, Vectorscope     
+Logic Analyzer, Oscilloscope, Vectorscope     
 
 Knowledge
 ---------
